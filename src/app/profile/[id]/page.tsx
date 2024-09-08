@@ -1,10 +1,8 @@
-import React from 'react'
+import './page.css'
 
-function ProfilePage() {
+const ProfilePage = () => {
   return (
-    <div>
-       profile page
-    </div>
+    <div className='page'>Page</div>
   )
 }
 
