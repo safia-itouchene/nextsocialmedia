@@ -17,7 +17,7 @@ const Navbar = () => {
     </div>
 
     {/*center*/}
-    <div className='hidden md:flex w-[50%] text-sm'>
+    <div className='hidden md:flex w-[50%] text-sm items-center justify-between'>
          {/*links*/}
         <div className='flex gap-6 text-gray-600'>
            <Link href="/" className='flex items-center gap-2'>
@@ -35,16 +35,15 @@ const Navbar = () => {
              <span>Stories</span>
            </Link>
         </div>
-        <div className="">
+        <div className="hidden xl:flex p-2 bg-slate-100 items-center rounded-xl">
            <input type="text" placeholder='search...' className='bg-transparent outline-none' />
            <Image src="/search.png" alt="" width={14} height={14}/>
         </div>
     </div>
-
     {/*right*/}
     <div className='w-[30%] flex items-center gap-4 xl:gap-8 justify-end'>
         <ClerkLoading>
-          <div className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-gray-500 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white" />
+          {/*<div className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-gray-500 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white" />*/}
         </ClerkLoading>
         <ClerkLoaded>
              <SignedIn>
