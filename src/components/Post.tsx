@@ -10,7 +10,7 @@ const Post = () => {
                <Image src="https://images.pexels.com/photos/28348904/pexels-photo-28348904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width={40} height={40} className="w-10 h-10 rounded-full"/>
                <span>jack bronu</span>
             </div>
-            <Image src="/more.png" alt="" width={16} height={16} />
+            <Image src="/more.png" alt="" width={16} height={16} className="cursor-pointer"/>
         </div>
         {/*desc*/}
         <div className='flex flex-col gap-4'>

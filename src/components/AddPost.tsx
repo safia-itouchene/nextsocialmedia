@@ -33,8 +33,6 @@ const AddPost = () => {
                    <Image src='/addevent.png' alt='' width={20} height={20}/>
                     Event
                 </div>
-
-                
            </div>
        </div>
     </div>

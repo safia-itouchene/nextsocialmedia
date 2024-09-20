@@ -25,7 +25,7 @@ const Comments = () => {
                   <div className="flex items-center gap-4">
                     <Image src='/like.png' alt='' width={12} height={12} className="w-3 h-3 cursor-pointer"/>
                     <span className="text-gray-300">|</span>
-                   <span className="text-gray-300">123</span>
+                    <span className="text-gray-300">123</span>
                  </div>
               
                  <div className="">Repaly</div>
